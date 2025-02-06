@@ -5,16 +5,16 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative"
+      className="min-h-screen flex  items-center justify-center relative"
     >
       <RevealOnScroll>
-        <div className="text-center flex flex-row ">
-          <div className="text-center  z-10 px-4">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
+        <div className="text-center  items-center flex flex-col md:flex-row ">
+          <div className="text-center mt-20  z-10 px-4">
+            <h1 className="text-2xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
               Hi, I'm Jeff GBANZIALI
             </h1>
 
-            <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
+            <p className="tex-gray-400 text-[14px] md:text-lg mb-8 max-w-lg mx-auto">
               4th year student in Big Data and Artificial Intelligence, with a
               solid background in digital engineering. My journey has allowed
               the development of versatile skills in development web, mobile and
@@ -41,7 +41,7 @@ export const Home = () => {
               </a>
             </div>
           </div>
-          <div className=" overflow-hidden w-72 h-72 rounded-2xl text-center z-10 px-4">
+          <div className=" overflow-hidden mt-10 w-[150px] h-[150px] md:w-[250px] md:h-[250px] rounded-full text-center ">
             <img
               src={profileImage}
               alt="my profil"
